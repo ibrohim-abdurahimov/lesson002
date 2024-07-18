@@ -1,0 +1,67 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(125deg,#5DC7E5,#9c05f4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form-login{
+    width: 350px;
+    background-color: white;
+    padding: 25px;
+   
+}
+.form__close{
+    text-align: right;
+    font-weight: 600;
+}
+.form__title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+.form__label{
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 14px;
+}
+.form__input{
+    width: 100%;
+    height: 36px;
+    border: 1px solid #aaa;
+}
+.form__link{
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.form__btn{
+    width: 100%;
+    height: 38px;
+    margin-top: 26px;
+    border: none;
+    background-image: linear-gradient(125deg,#5DC7E5,#9c05f4);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.form__sigup{
+    margin-top: 24px;
+    text-align: center;
+    font-size: 14px;
+}
+.form__sigup a{
+    color: #5DC7E5;
+    text-decoration: none;
+}
